@@ -1,0 +1,407 @@
+.top-bar{
+  background: #0095C2;
+  width: 100%;
+  height: 91px;
+  line-height: 2.8125rem;
+  margin-bottom: 0;
+  margin: auto;
+  overflow: hidden;
+  position: center;
+  box-shadow: 0px 3px 4px #808080;
+  text-align: center;
+  vertical-align: center;
+
+		}
+.button-top {
+
+}
+
+.row_top {
+	vertical-align: center;
+}
+
+.top-bar ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+vertical-align: center;
+
+  }
+
+
+#center {
+  width: 950px;
+    height: auto;
+    margin: 0px;
+    padding: 0 0 10px 0;
+    text-align: center;
+    float: left;
+}
+
+
+.topper{
+  text-align: center;
+}
+
+
+.footer{
+
+width:100%;
+height: 421px;
+text-align: center;
+margin: 0 auto;
+padding: 20px 0 0 10px;
+background-color: #202427;
+}
+.button1 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 233px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  height: auto;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 1px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding: 12px 5px 12px 12px;
+  font-size: 1rem;
+  background-color: #ff9900;
+  border-color: #007095;
+  color: #FFFFFF;
+  }
+
+button, .button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 233px;
+  height: auto;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 1px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding: 12px 5px 12px 12px;
+  font-size: 1rem;
+  background-color: #ff9900;
+  border-color: #007095;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out; }
+
+ 
+ .button3 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  width: 233px;
+  height: auto;
+  border-style: solid;
+  border-width: 0;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 1px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  padding: 12px 5px 12px 12px;
+  font-size: 1rem;
+  background-color: #ff9900;
+  border-color: #007095;
+  color: #FFFFFF;
+  transition: background-color 300ms ease-out; }
+
+  .popular {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: -6px 0 0 -6px;
+    text-align: left;
+}
+
+
+
+/* Panels */
+.panel_cars {
+    width: 217px;
+    height: 142px;
+    padding: 5px;
+    text-align: left;
+    background-color: #0094c2;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    float: left; 
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+
+/* Panels */
+.panel {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #f2f2f2;
+  color: #333333; 
+}
+
+
+  .panel > :first-child {
+    margin-top: 0; }
+  .panel > :last-child {
+    margin-bottom: 0; }
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+    color: #333333; }
+  .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
+    line-height: 1;
+    margin-bottom: 0.625rem; }
+    .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
+      line-height: 1.4; }
+  .panel.callout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #ecfaff;
+    color: #333333; }
+    .panel.callout > :first-child {
+      margin-top: 0; }
+    .panel.callout > :last-child {
+      margin-bottom: 0; }
+    .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6, .panel.callout p, .panel.callout li, .panel.callout dl {
+      color: #333333; }
+    .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
+      line-height: 1;
+      margin-bottom: 0.625rem; }
+      .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
+        line-height: 1.4; }
+    .panel.callout a:not(.button) {
+      color: #008CBA; }
+      .panel.callout a:not(.button):hover, .panel.callout a:not(.button):focus {
+        color: #0078a0; }
+  .panel.radius {
+    border-radius: 3px; }
+
+.boxer {
+
+
+}
+
+.footer-text {
+
+height: auto;
+    padding: 0 0 1px 0;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #868788;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    float: left;
+
+}
+
+.footer-titles {
+
+width: 165px;
+    height: 60px;
+    text-align: left;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    float: left;
+  
+}
+
+
+.panel-cars-1 {
+width: 197px;
+    height: 33px;
+    padding: 0 10px 0 10px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    color: #fff;
+    float: left;
+}
+
+.panel-cars-2 {
+width: 40px;
+    height: 20px;
+    padding: 0 0 0 10px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-3 {
+    width: 63px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+    float: left
+}
+.panel-cars-4 {
+    width: 72px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-5 {
+width: 35px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-6 {
+    width: 68px;
+    height: 20px;
+    padding: 0 0 0 10px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-7 {
+    width: 54px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+    float: left
+}
+.panel-cars-8 {
+width: 36px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-9 {
+width: 45px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-10 {
+    width: 40px;
+    height: 18px;
+    padding: 2px 0 0 10px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-11 {
+    width: 160px;
+    height: 20px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+.panel-cars-12 {
+
+}
+.panel-cars-13 {
+    width: auto;
+    height: auto;
+    padding: 0 12px 0 0;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: #fff;
+    line-height: 22px;
+    float: right;
+}
+
+.buy-now {
+
+}
+
+.filter {
+      width: 250px;
+    height: 60px;
+    padding: 0px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    float: left;
+}

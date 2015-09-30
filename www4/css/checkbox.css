@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+* { margin: 0; padding: 0; border: 0 none;}
+
+
+
+section {width:170px;
+height:50px; 
+padding:0px; 
+margin:0px; 
+text-align: left; 
+float:left}
+
+input[type=checkbox] { visibility: hidden;}
+
+
+.checkbox-1 {
+display: inline-block;
+vertical-align: middle; 
+width:35px;
+height:35px; 
+position: relative;}
+
+
+.checkbox-1 label { 
+background:url(../images/radio_Unchecked.png);
+display: block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:19px;
+z-index: 1;}
+
+.checkbox-1 input[type=checkbox]:checked + label { 
+background:url(../images/radio_Checked.png);
+width: 35px;
+height: 35px;
+top: 0px;
+left:19px;}
+
+
+
+
+
+
+
+
+.checkbox-2 {
+display: inline-block;
+vertical-align: middle; 
+width:35px;
+height:35px; 
+position: relative;}
+
+
+.checkbox-2 label { 
+background:url(../images/radio_Unchecked.png);
+display: block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:19px;
+z-index: 1;}
+
+.checkbox-2 input[type=checkbox]:checked + label { 
+background:url(../images/radio_Checked2.png);
+width: 35px;
+height: 35px;
+top: 0px;
+left:19px;}
+
+
+
+
+
+.checkbox-3 {
+display: inline-block;
+vertical-align: middle; 
+width:54px;
+height:35px; 
+position: relative;}
+
+
+.checkbox-3 label { 
+background:url(../images/radio_Unchecked3.png);
+display: block;
+width: 54px;
+height: 35px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:0px;
+z-index: 1;}
+
+.checkbox-3 input[type=checkbox]:checked + label { 
+background:url(../images/radio_Checked3.png);
+width: 54px;
+height: 35px;
+top: 0px;
+left:0px;}
+
+
+
+
+
+.checkbox-4 {
+display: inline-block;
+vertical-align: middle; 
+width:100%;
+height:24px; 
+padding:0px; 
+margin:0 20px 0 0; 
+text-align: left; 
+font-family: 'Open Sans', sans-serif; font-weight:800; font-size:14px; color:#fff; text-transform:uppercase;
+position: relative;}
+
+
+.checkbox-4 label { 
+background:url(../images/checkbox_Unchecked_Small.png);
+display: block;
+width: 14px;
+height: 14px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:100px;
+z-index: 1;}
+
+.checkbox-4 input[type=checkbox]:checked + label { 
+background:url(../images/checkbox_Checked_Small.png);
+width:14px;
+height:14px;
+top: 0px;
+left:100px;}
+
+
+
+
+
+
+
+
+
+.checkbox-5 {
+display: inline-block;
+vertical-align: middle; 
+position: relative;
+width:233px; 
+height:auto; 
+padding:0; 
+font-family: 'Open Sans', sans-serif; font-weight:600; font-size:14px; color:#fff; text-transform:uppercase;  text-align: left; text-decoration:none; }
+
+
+.checkbox-5 label { 
+background:url(../images/checkbox_Unchecked_Small5.png);
+display: block;
+width: 17px;
+height: 17px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:197px;
+z-index: 1;}
+
+.checkbox-5 input[type=checkbox]:checked + label { 
+background:url(../images/checkbox_Checked_Small5.png);
+width:17px;
+height:17px;
+top: 0px;
+left:197px;}
+
+
+
+
+section6 {width:120px;
+height:80px; 
+padding:0px; 
+margin:0 5px 0 5px; 
+text-align: left; 
+float:left}
+
+
+.checkbox-6 {
+display: inline-block;
+vertical-align: middle; 
+width:120px;
+height:41px; 
+position: relative;}
+
+
+.checkbox-6 label { 
+display: block;
+width: 120px;
+height: 41px;
+cursor: pointer;
+position: absolute;
+top:0px;
+left:0px;
+z-index: 1; 
+border:2px solid #FFF; border-radius:8px}
+
+.checkbox-6 input[type=checkbox]:checked + label { 
+width:120px;
+height:41px;
+top: 0px;
+left:0px;
+border:2px solid #F90; border-radius:8px}

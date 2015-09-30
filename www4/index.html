@@ -1,0 +1,801 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Dashub.com</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/pop.css" rel="stylesheet" type="text/css" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="css/select.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.stylish-select.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('select').sSelect({ddMaxHeight: '300px'});
+            });
+            function MM_showHideLayers() { //v9.0
+              var i,p,v,obj,args=MM_showHideLayers.arguments;
+              for (i=0; i<(args.length-2); i+=3) 
+              with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+                if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+                obj.visibility=v; }
+            }
+        </script>
+        <link href="css/checkbox.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <!--HEADER-->
+        <div id="header_b">
+            <div id="header">
+                <div class="box1_header"><a href="#"><img src="images/logo.png" alt="" /></a></div>
+                <div class="box2_header">
+                    <div class="box2_header1">
+                        <input name="" type="text" value="Search by Name, Make, Model, Year" class="box2_buscar" onclick="this.value = '';" />
+                    </div>
+                    <input name="" type="button" class="box2_header2" value="" />
+                </div>
+                <div class="box3_header">
+                    <a href="#" class="b_sign">SIGN IN</a>
+                    <a href="#" class="b_register">REGISTER</a>
+                </div>
+            </div>
+        </div>
+        <!--CONTAINER-->
+        <div id="container_b">
+            <div id="container">
+                <div id="center">
+                    <div class="box1_home">
+                        <div class="box1_home1">Filter</div>
+                        <div class="box1_home2">
+                            <div id="nivo-lightbox-demo">
+                                <link href="css/nivo.css" rel="stylesheet" type="text/css" />
+                                <link href="css/defaul.css" rel="stylesheet" type="text/css" />
+                                <ul class="nav">
+                                    <li><a href="#" class="nav1">MAKE</a></li>
+                                    <li><a href="#" class="nav">MODEL</a></li>
+                                    <li><a href="#" class="nav">YEAR</a></li>
+                                    <li><a href="#" class="nav" onclick="MM_showHideLayers('box4_pop','','show')">MILEAGE</a></li>
+                                    <li><a href="#" class="nav">LOCATION</a></li>
+                                    <li><a href="#" class="nav">SALE DATE</a></li>
+                                    <li><a href="#" class="nav">OWNERSHIP DOC TYPE</a></li>
+                                    <li><a href="#" class="nav">SOURCE</a></li>
+                                    <li><a href="#" class="nav" onclick="MM_showHideLayers('box2_pop','','show')">VEHICLE TYPE</a></li>
+                                    <li><a href="#" class="nav" onclick="MM_showHideLayers('box1_pop','','show')">FEATURED ITEMS</a></li>
+                                    <li><a href="#" class="nav">BODY STYLE</a></li>
+                                    <li><a href="#" class="nav">FUEL TYPE</a></li>
+                                    <li><a href="#" class="nav">ENGINE TYPE</a></li>
+                                    <li><a href="#" class="nav">DRIVE TRAIN</a></li>
+                                    <li><a href="#" class="nav" onclick="MM_showHideLayers('box3_pop','','show')">COLORS</a></li>
+                                    <li><a href="#" class="nav">CYLINDER</a></li>
+                                    <li>
+                                        <a class="nav3">
+                                            <div class="checkbox-5">BUY NOW<input type="checkbox" id="ejemplo-90" value="90" name=""/><label for="ejemplo-90"></label></div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="nav2">
+                                            <div class="checkbox-5">RUN AND DRIVE<input type="checkbox" id="ejemplo-91" value="91" name=""/><label for="ejemplo-91"></label></div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2_home">
+                        <div class="box2_home1">
+                            <span class="box2_h1_a">Search result for:</span>
+                            <input name="" type="text" class="box2_h1_b" />
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Current Bid</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Location</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Sale Date</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Year</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Model</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <div class="box2_h1_c">
+                                <select>
+                                    <option value="2">Make</option>
+                                    <option value="3">Items03</option>
+                                    <option value="4">Items04</option>
+                                    <option value="5">Items05</option>
+                                    <option value="6">Items06</option>
+                                    <option value="7">Items07</option>
+                                    <option value="8">Items08</option>
+                                    <option value="9">Items09</option>
+                                </select>
+                            </div>
+                            <span class="box2_h1_d">Applied Filters:</span>
+                        </div>
+                        <div class="box2_home2">
+                            <div id="box1_pop">
+                                <div class="box1_pop1">
+                                    <div class="box1_pop1_a"><a href="#" class="b_cerrar" onclick="MM_showHideLayers('box1_pop','','hide')"></a></div>
+                                    <div class="box1_pop1_b">
+                                        <div class="box1_pop1_b1">
+                                            <div class="checkbox-4">2DR SPOR<input type="checkbox" id="ejemplo-1" value="1" name=""/><label for="ejemplo-1"></label></div>
+                                            <div class="checkbox-4">3DR EXT<input type="checkbox" id="ejemplo-2" value="2" name=""/><label for="ejemplo-2"></label></div>
+                                            <div class="checkbox-4">4DR EXT<input type="checkbox" id="ejemplo-3" value="3" name=""/><label for="ejemplo-3"></label></div>
+                                            <div class="checkbox-4">4DR SPOR<input type="checkbox" id="ejemplo-4" value="4" name=""/><label for="ejemplo-4"></label></div>
+                                            <div class="checkbox-4">4DR WAGO<input type="checkbox" id="ejemplo-5" value="5" name=""/><label for="ejemplo-5"></label></div>
+                                            <div class="checkbox-4">ALL TERR<input type="checkbox" id="ejemplo-6" value="6" name=""/><label for="ejemplo-6"></label></div>
+                                            <div class="checkbox-4">BUS<input type="checkbox" id="ejemplo-7" value="7" name=""/><label for="ejemplo-7"></label></div>
+                                            <div class="checkbox-4">CARGO CU<input type="checkbox" id="ejemplo-8" value="8" name=""/><label for="ejemplo-8"></label></div>
+                                            <div class="checkbox-4">CARGO VA<input type="checkbox" id="ejemplo-9" value="9" name=""/><label for="ejemplo-9"></label></div>
+                                            <div class="checkbox-4">CHASSIS<input type="checkbox" id="ejemplo-10" value="10" name=""/><label for="ejemplo-10"></label></div>
+                                            <div class="checkbox-4">CLUB CAB<input type="checkbox" id="ejemplo-11" value="11" name=""/><label for="ejemplo-11"></label></div>
+                                        </div>
+                                        <div class="box1_pop1_b2">
+                                            <div class="checkbox-4">CONVENTI<input type="checkbox" id="ejemplo-12" value="12" name=""/><label for="ejemplo-12"></label></div>
+                                            <div class="checkbox-4">CONVENTI<input type="checkbox" id="ejemplo-13" value="13" name=""/><label for="ejemplo-13"></label></div>
+                                            <div class="checkbox-4">COUPE<input type="checkbox" id="ejemplo-14" value="14" name=""/><label for="ejemplo-14"></label></div>
+                                            <div class="checkbox-4">COUPE 3D<input type="checkbox" id="ejemplo-15" value="15" name=""/><label for="ejemplo-15"></label></div>
+                                            <div class="checkbox-4">CREW CHA<input type="checkbox" id="ejemplo-16" value="16" name=""/><label for="ejemplo-16"></label></div>
+                                            <div class="checkbox-4">CREW PIC<input type="checkbox" id="ejemplo-17" value="17" name=""/><label for="ejemplo-17"></label></div>
+                                            <div class="checkbox-4">CUTAWAY<input type="checkbox" id="ejemplo-18" value="18" name=""/><label for="ejemplo-18"></label></div>
+                                            <div class="checkbox-4">DIRT<input type="checkbox" id="ejemplo-19" value="19" name=""/><label for="ejemplo-19"></label></div>
+                                            <div class="checkbox-4">ENDURO<input type="checkbox" id="ejemplo-20" value="20" name=""/><label for="ejemplo-20"></label></div>
+                                            <div class="checkbox-4">EXTENDED<input type="checkbox" id="ejemplo-21" value="21" name=""/><label for="ejemplo-21"></label></div>
+                                            <div class="checkbox-4">FIRE TRU<input type="checkbox" id="ejemplo-22" value="22" name=""/><label for="ejemplo-22"></label></div>
+                                        </div>
+                                        <div class="box1_pop1_b2">
+                                            <div class="checkbox-4">FORWARD<input type="checkbox" id="ejemplo-23" value="23" name=""/><label for="ejemplo-23"></label></div>
+                                            <div class="checkbox-4">GLIDERS<input type="checkbox" id="ejemplo-24" value="24" name=""/><label for="ejemplo-24"></label></div>
+                                            <div class="checkbox-4">HATCHBAC<input type="checkbox" id="ejemplo-25" value="25" name=""/><label for="ejemplo-25"></label></div>
+                                            <div class="checkbox-4">HEARSE<input type="checkbox" id="ejemplo-26" value="26" name=""/><label for="ejemplo-26"></label></div>
+                                            <div class="checkbox-4">INCOMP P<input type="checkbox" id="ejemplo-27" value="27" name=""/><label for="ejemplo-27"></label></div>
+                                            <div class="checkbox-4">INCOMPLE<input type="checkbox" id="ejemplo-28" value="28" name=""/><label for="ejemplo-28"></label></div>
+                                            <div class="checkbox-4">LIFTBACK<input type="checkbox" id="ejemplo-29" value="29" name=""/><label for="ejemplo-29"></label></div>
+                                            <div class="checkbox-4">LIMOUSIN<input type="checkbox" id="ejemplo-30" value="30" name=""/><label for="ejemplo-30"></label></div>
+                                            <div class="checkbox-4">MOTO CRO<input type="checkbox" id="ejemplo-31" value="31" name=""/><label for="ejemplo-31"></label></div>
+                                            <div class="checkbox-4">MOTOR SC<input type="checkbox" id="ejemplo-32" value="32" name=""/><label for="ejemplo-32"></label></div>
+                                            <div class="checkbox-4">MOTORIZE<input type="checkbox" id="ejemplo-33" value="33" name=""/><label for="ejemplo-33"></label></div>
+                                        </div>
+                                        <div class="box1_pop1_b2">
+                                            <div class="checkbox-4">PICKUP<input type="checkbox" id="ejemplo-34" value="34" name=""/><label for="ejemplo-34"></label></div>
+                                            <div class="checkbox-4">RACER<input type="checkbox" id="ejemplo-35" value="35" name=""/><label for="ejemplo-35"></label></div>
+                                            <div class="checkbox-4">ROAD/STR<input type="checkbox" id="ejemplo-36" value="36" name=""/><label for="ejemplo-36"></label></div>
+                                            <div class="checkbox-4">ROADSTER<input type="checkbox" id="ejemplo-37" value="37" name=""/><label for="ejemplo-37"></label></div>
+                                            <div class="checkbox-4">SEDAN 2<input type="checkbox" id="ejemplo-38" value="38" name=""/><label for="ejemplo-38"></label></div>
+                                            <div class="checkbox-4">SEDAN 4D<input type="checkbox" id="ejemplo-39" value="39" name=""/><label for="ejemplo-39"></label></div>
+                                            <div class="checkbox-4">SEDAN 5D<input type="checkbox" id="ejemplo-40" value="40" name=""/><label for="ejemplo-40"></label></div>
+                                            <div class="checkbox-4">SPORT PI<input type="checkbox" id="ejemplo-41" value="41" name=""/><label for="ejemplo-41"></label></div>
+                                            <div class="checkbox-4">SPORTS V<input type="checkbox" id="ejemplo-42" value="42" name=""/><label for="ejemplo-42"></label></div>
+                                            <div class="checkbox-4">STATION<input type="checkbox" id="ejemplo-43" value="43" name=""/><label for="ejemplo-43"></label></div>
+                                            <div class="checkbox-4">STEP VAN<input type="checkbox" id="ejemplo-44" value="44" name=""/><label for="ejemplo-44"></label></div>
+                                        </div>
+                                        <div class="box1_pop1_b3">
+                                            <div class="checkbox-4">TANDEM<input type="checkbox" id="ejemplo-45" value="45" name=""/><label for="ejemplo-45"></label></div>
+                                            <div class="checkbox-4">TILT CAB<input type="checkbox" id="ejemplo-46" value="46" name=""/><label for="ejemplo-46"></label></div>
+                                            <div class="checkbox-4">TRACTOR<input type="checkbox" id="ejemplo-47" value="47" name=""/><label for="ejemplo-47"></label></div>
+                                            <div class="checkbox-4">UTILITY<input type="checkbox" id="ejemplo-48" value="48" name=""/><label for="ejemplo-48"></label></div>
+                                            <div class="checkbox-4">VAN CAMP<input type="checkbox" id="ejemplo-49" value="49" name=""/><label for="ejemplo-49"></label></div>
+                                            <span class="box1_pop1_b1_b"><a href="#" class="b_done">DONE</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="box2_pop">
+                                <div class="box1_pop1">
+                                    <div class="box1_pop1_a"><a href="#" class="b_cerrar" onclick="MM_showHideLayers('box2_pop','','hide')"></a></div>
+                                    <div class="box1_pop1_b">
+                                        <div class="box1_pop1_b4">
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_01"><input type="checkbox" id="ejemplo-60" value="60" name="" /><label for="ejemplo-60"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Exotics</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_02"><input type="checkbox" id="ejemplo-61" value="61" name="" /><label for="ejemplo-61"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Automobile</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_03"><input type="checkbox" id="ejemplo-62" value="62" name="" /><label for="ejemplo-62"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Industrial</span>
+                                            </section6>
+                                        </div>
+                                        <div class="box1_pop1_b4">
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_04"><input type="checkbox" id="ejemplo-63" value="63" name="" /><label for="ejemplo-63"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">RV</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_05"><input type="checkbox" id="ejemplo-64" value="64" name="" /><label for="ejemplo-64"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Classics</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_06"><input type="checkbox" id="ejemplo-65" value="65" name="" /><label for="ejemplo-65"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Boat</span>
+                                            </section6>
+                                        </div>
+                                        <div class="box1_pop1_b4">
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_07"><input type="checkbox" id="ejemplo-66" value="66" name="" /><label for="ejemplo-66"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">SUV/PICKUP</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_08"><input type="checkbox" id="ejemplo-67" value="67" name="" /><label for="ejemplo-67"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Recreational</span>
+                                            </section6>
+                                        </div>
+                                        <div class="box1_pop1_b4">
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_09"><input type="checkbox" id="ejemplo-68" value="68" name="" /><label for="ejemplo-68"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Motorcycle</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_10"><input type="checkbox" id="ejemplo-69" value="69" name="" /><label for="ejemplo-69"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Bus</span>
+                                            </section6>
+                                        </div>
+                                        <div class="box1_pop1_b4">
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_11"><input type="checkbox" id="ejemplo-70" value="70" name="" /><label for="ejemplo-70"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Trailer</span>
+                                            </section6>
+                                            <section6>
+                                                <div class="checkbox-6"><span class="auto_12"><input type="checkbox" id="ejemplo-71" value="71" name="" /><label for="ejemplo-71"></label></span></div>
+                                                <span class="box1_pop1_b4_a2">Truck</span>
+                                            </section6>
+                                            <span class="box1_pop1_b1_c"><a href="#" class="b_done">DONE</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="box3_pop">
+                                <div class="box1_pop1">
+                                    <div class="box1_pop1_a"><a href="#" class="b_cerrar" onclick="MM_showHideLayers('box3_pop','','hide')"></a></div>
+                                    <div class="box1_pop1_b">
+                                        <div class="box1_pop1_b5">
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo01"><input type="checkbox" id="ejemplo-101" value="101" name="" /><label for="ejemplo-101"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BEIGE</span>    
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-2"><span class="circulo02"><input type="checkbox" id="ejemplo-102" value="102" name="" /><label for="ejemplo-102"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BLACK</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo03"><input type="checkbox" id="ejemplo-103" value="103" name="" /><label for="ejemplo-103"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BLUE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo04"><input type="checkbox" id="ejemplo-104" value="104" name="" /><label for="ejemplo-104"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BROWN</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo05"><input type="checkbox" id="ejemplo-105" value="105" name="" /><label for="ejemplo-105"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BURGUNDY</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo06"><input type="checkbox" id="ejemplo-106" value="106" name="" /><label for="ejemplo-106"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">BURN</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo07"><input type="checkbox" id="ejemplo-107" value="107" name="" /><label for="ejemplo-107"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">CHARCOAL</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo08"><input type="checkbox" id="ejemplo-108" value="108" name="" /><label for="ejemplo-108"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">CREAM</span>
+                                            </section>
+                                        </div>
+                                        <div class="box1_pop1_b5">
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo09"><input type="checkbox" id="ejemplo-109" value="109" name="" /><label for="ejemplo-109"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">GOLD</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo10"><input type="checkbox" id="ejemplo-110" value="110" name="" /><label for="ejemplo-110"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">GRAY</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo11"><input type="checkbox" id="ejemplo-111" value="111" name="" /><label for="ejemplo-111"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">GREEN</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo12"><input type="checkbox" id="ejemplo-112" value="112" name="" /><label for="ejemplo-112"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">MAROON</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo13"><input type="checkbox" id="ejemplo-113" value="113" name="" /><label for="ejemplo-113"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">ORANGE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo14"><input type="checkbox" id="ejemplo-114" value="114" name="" /><label for="ejemplo-114"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">PINK</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo15"><input type="checkbox" id="ejemplo-115" value="115" name="" /><label for="ejemplo-115"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">PURPLE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo16"><input type="checkbox" id="ejemplo-116" value="116" name="" /><label for="ejemplo-116"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">RED</span>
+                                            </section>
+                                        </div>
+                                        <div class="box1_pop1_b5">
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo17"><input type="checkbox" id="ejemplo-117" value="117" name="" /><label for="ejemplo-117"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">SILVER</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo18"><input type="checkbox" id="ejemplo-118" value="118" name="" /><label for="ejemplo-118"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">TAN</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo19"><input type="checkbox" id="ejemplo-119" value="119" name="" /><label for="ejemplo-119"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">TEAL</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo20"><input type="checkbox" id="ejemplo-120" value="120" name="" /><label for="ejemplo-120"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">TURQUOISE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-3"><span class="circulo21"><input type="checkbox" id="ejemplo-121" value="121" name="" /><label for="ejemplo-121"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">TWO TONE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-2"><span class="circulo22"><input type="checkbox" id="ejemplo-122" value="122" name="" /><label for="ejemplo-122"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">UNKNOWN -</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo23"><input type="checkbox" id="ejemplo-123" value="123" name="" /><label for="ejemplo-123"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">WHITE</span>
+                                            </section>
+                                            <section>
+                                                <div class="checkbox-1"><span class="circulo24"><input type="checkbox" id="ejemplo-124" value="124" name="" /><label for="ejemplo-124"></label></span></div>
+                                                <span class="box1_pop1_b5_a2">YELLOW</span>
+                                            </section>
+                                        </div>
+                                        <div class="box1_pop1_b6">
+                                            <span class="box1_pop1_b1_d"><a href="#" class="b_done">DONE</a></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="box4_pop">
+                                <div class="box1_pop1">
+                                    <div class="box1_pop1_a"><a href="#" class="b_cerrar" onclick="MM_showHideLayers('box4_pop','','hide')"></a></div>
+                                    <div class="box1_pop1_b">
+                                        <div class="box1_pop1_b8">
+                                            <div class="box1_pop1_b8_a">10.000</div>
+                                            <div class="box1_pop1_b8_aa">21.500</div>
+                                        </div>
+                                        <div class="box1_pop1_b9"><span class="box1_pop1_b9_a">0</span><span class="box1_pop1_b9_b">100.000</span></div>
+                                        <div class="box1_pop1_b10"><a href="#" class="b_done">DONE</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_a">
+                                <div id="box2_h2_a1_1"><span class="box2_h2_info">350i</span><a href="#" class="box2_x" onclick="MM_showHideLayers('box2_h2_a1_1','','hide')"><img src="images/cerrar.png" width="12" height="12" /></a></div>
+                                <div id="box2_h2_a1_2"><span class="box2_h2_info">2015</span><a href="#" class="box2_x" onclick="MM_showHideLayers('box2_h2_a1_2','','hide')"><img src="images/cerrar.png" width="12" height="12" /></a></div>
+                                <div id="box2_h2_a1_3"><span class="box2_h2_info">15.000 milles</span><a href="#" class="box2_x" onclick="MM_showHideLayers('box2_h2_a1_3','','hide')"><img src="images/cerrar.png" width="12" height="12" /></a></div>
+                                <div id="box2_h2_a1_4"><span class="box2_h2_info">New York</span><a href="#" class="box2_x" onclick="MM_showHideLayers('box2_h2_a1_4','','hide')"><img src="images/cerrar.png" width="12" height="12" /></a></div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="popular"><img src="images/popular.png" width="78" height="77" /></div>
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="popular"><img src="images/popular.png" width="78" height="77" /></div>
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+
+
+                                        <span class="">2015 Volkswagen Passat</span>
+                                        <span class="">TYPE:</span>
+                                        <span class="">SALVAGE</span>
+                                        <span class="">RUN & DRIVE:</span>
+                                        <span class="">XXXX</span>
+                                        <span class="">LOCATION:</span>
+                                        <span class="">XXXXXXX</span>
+                                        <span class="">MILES:</span>
+                                        <span class="">XXXXXXX</span>
+                                        <span class="">TIME:</span>
+                                        <span class="">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="">effect</span>
+                                        <a href="#" class="">BUY NOW</a>
+                                        <span class="">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box2_h2_b">
+                                <div class="box2_h2_b1"><img src="images/image02.jpg" width="217" height="139" /></div>
+                                <div class="box2_h2_b2">
+                                    <div class="box2_h2_b2_a"><img src="images/arrow_top.png" width="217" height="13" /></div>
+                                    <div class="box2_h2_b2_b">
+                                        <span class="box2_h2_b2_b1">2015 Volkswagen Passat</span>
+                                        <span class="box2_h2_b2_b2">TYPE:</span>
+                                        <span class="box2_h2_b2_b3">SALVAGE</span>
+                                        <span class="box2_h2_b2_b4">RUN & DRIVE:</span>
+                                        <span class="box2_h2_b2_b5">XXXX</span>
+                                        <span class="box2_h2_b2_b6">LOCATION:</span>
+                                        <span class="box2_h2_b2_b7">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b8">MILES:</span>
+                                        <span class="box2_h2_b2_b9">XXXXXXX</span>
+                                        <span class="box2_h2_b2_b10">TIME:</span>
+                                        <span class="box2_h2_b2_b11">2 DAYS / 10 HS / 25 MIN</span>
+                                        <span class="box2_h2_b2_b12"><img src="images/sombra.png" width="217" height="13" /></span>
+                                        <a href="#" class="buy_now">BUY NOW</a>
+                                        <span class="box2_h2_b2_b13">$21,900</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--BOTTOM-->
+        <div id="bottom">
+            <div id="bottom_cont">
+                <div class="box1_foot">
+                    <div class="box1_foot1">
+                        <div class="box1_f1_a">ABOUT DASHUB</div>
+                        <div class="box1_f1_b">
+                            <ul class="navp">
+                                <li><a href="#" class="nav">Home</a></li>
+                                <li><a href="#" class="nav">BLOG</a></li>
+                                <li><a href="#" class="nav">ABOUT</a></li>
+                                <li><a href="#" class="nav">SHIPPING</a></li>
+                                <li><a href="#" class="nav">HOW TO BUY</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box1_foot1">
+                        <div class="box1_f1_a">MEMBERS</div>
+                        <div class="box1_f1_b">
+                            <ul class="navp">
+                                <li><a href="#" class="nav">HUB</a></li>
+                                <li><a href="#" class="nav">DEPOSIT</a></li>
+                                <li><a href="#" class="nav">SEARCH</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box1_foot2">
+                        <a href="#"><img src="images/fb.jpg" width="32" height="32" /></a>
+                        <a href="#"><img src="images/tw.jpg" width="32" height="32" /></a>
+                        <a href="#"><img src="images/go.jpg" width="32" height="32" /></a>
+                        <a href="#"><img src="images/pl.jpg" width="32" height="32" /></a>
+                        <a href="#"><img src="images/pr.jpg" width="32" height="32" /></a>
+                        <a href="#"><img src="images/ph.jpg" width="32" height="32" /></a>
+                    </div>
+                    <div class="box1_foot3"><img src="images/image01.jpg" width="320" height="55" /></div>
+                    <div class="box1_foot4">2015 DASHUB LLC</div>
+                </div>
+                <div class="box2_foot">
+                    <div class="box1_f1_a">SUPPORT</div>
+                    <div class="box1_f1_b">
+                        <ul class="navp">
+                            <li><a href="#" class="nav">CONTACT</a></li>
+                            <li><a href="#" class="nav">FAQ</a></li>
+                            <li><a href="#" class="nav">PRIVACY POLICY</a></li>
+                            <li><a href="#" class="nav">TERMS OF SERVICE</a></li>
+                            <li><a href="#" class="nav">TERMS OF USE</a></li>
+                            <li><a href="#" class="nav">(855)980 0900</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box3_foot">
+                    <div class="box1_f3_a">AUCTIONS BY STATE:</div>
+                    <div class="box1_f3_b">
+                        <ul class="navp">
+                            
+                        </ul>
+                    </div>
+                    <div class="box1_f3_b">
+                        <ul class="navp">
+                            <li><a href="#" class="nav">MAINE</a></li>
+                            <li><a href="#" class="nav">MARYLAND</a></li>
+                            <li><a href="#" class="nav">MASSACHUSETTS</a></li>
+                            <li><a href="#" class="nav">MICHIGAN</a></li>
+                            <li><a href="#" class="nav">MINNESOTA</a></li>
+                            <li><a href="#" class="nav">MISSISSIPPI</a></li>
+                            <li><a href="#" class="nav">MISSOURI</a></li>
+                            <li><a href="#" class="nav">MONTANA</a></li>
+                            <li><a href="#" class="nav">NEBRASKA</a></li>
+                            <li><a href="#" class="nav">NEVADA</a></li>
+                            <li><a href="#" class="nav">NEW HAMPSHIRE</a></li>
+                            <li><a href="#" class="nav">NEW JERSEY</a></li>
+                            <li><a href="#" class="nav">NEW MEXICO</a></li>
+                            <li><a href="#" class="nav">NEW YORK</a></li>
+                            <li><a href="#" class="nav">NORTH CAROLINA</a></li>
+                            <li><a href="#" class="nav">NORTH DAKOTA</a></li>
+                        </ul>
+                    </div>
+                    <div class="box1_f3_c">
+                        <ul class="navp">
+                            <li><a href="#" class="nav">OHIO</a></li>
+                            <li><a href="#" class="nav">OKLAHOMA</a></li>
+                            <li><a href="#" class="nav">OREGON</a></li>
+                            <li><a href="#" class="nav">PENNSYLVANIA</a></li>
+                            <li><a href="#" class="nav">RHODE ISLAND</a></li>
+                            <li><a href="#" class="nav">SOUTH CAROLINA</a></li>
+                            <li><a href="#" class="nav">SOUTH DAKOTA</a></li>
+                            <li><a href="#" class="nav">TENNESSEE</a></li>
+                            <li><a href="#" class="nav">TEXAS</a></li>
+                            <li><a href="#" class="nav">UTAH</a></li>
+                            <li><a href="#" class="nav">VERMONT</a></li>
+                            <li><a href="#" class="nav">VIRGINIA</a></li>
+                            <li><a href="#" class="nav">WASHINGTON</a></li>
+                            <li><a href="#" class="nav">WEST VIRGINIA</a></li>
+                            <li><a href="#" class="nav">WISCONSIN</a></li>
+                            <li><a href="#" class="nav">WYOMING</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
